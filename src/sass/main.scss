@@ -5,3 +5,31 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
+body {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  background: url(../images/extra_clean_paper.png);
+  color: #666565;
+}
+.main-container {
+  padding: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #848b8b;
+  border-radius: 5px;
+  outline: none;
+  background: #d6d6d5;
+  color: #666565;
+}
+
+.card-wrap {
+  display: flex;
+  justify-content: baseline;
+}
+.country-img {
+  margin-left: 30px;
+  max-width: 200px;
+}
